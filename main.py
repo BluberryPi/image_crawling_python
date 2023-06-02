@@ -11,7 +11,7 @@ import pandas as pd
 a=input("검색할 키워드를 입력 : ")
 image_name = input("저장할 이미지 이름 : ")
 #b=int(input("몇 개 저장할래? : "))
-driver = webdriver.Chrome('C:\chromedriver_win32 (1)\chromedriver.exe')
+driver = webdriver.Chrome('chrome driver 위치')
 driver.get('http://www.google.co.kr/imghp?hl=ko')
 browser = driver.find_element(By.NAME, "q")
 browser.send_keys(a)
